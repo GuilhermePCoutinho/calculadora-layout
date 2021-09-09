@@ -1,0 +1,100 @@
+div.calculator {
+    width: 250px;
+    margin: auto;
+    background-color: #011017;
+    padding: 15px;
+    padding-top: 0;
+    border-radius: 15px;
+    box-shadow: #00000094 0px 2px 3px 2px;
+    font-family: fantasy;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+div.top {
+    text-align: center;
+    height: 45px;
+    padding: 5px 0;
+}
+
+div.top img {
+    height: 100%;
+}
+
+div.display {
+    height: 90px;
+    width: 95%;
+    margin: auto;
+    background-color: #005f17;
+    border-radius: 11px;
+    color: #011017;
+    font-size: 15px
+}
+
+div.timeOuter {
+    padding: 5px 3px;
+}
+
+span.time {
+    margin-left: 8px
+}
+
+div.expression {
+    text-align: right;
+    font-size: 32px;
+    padding: 0 6px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: calc(100% - 12px);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+div.expression::-webkit-scrollbar {
+    display: none;
+}
+
+div.preview {
+    text-align: right;
+    padding-right: 6px;
+}
+
+div.calculator table {
+    margin-top: 23px;
+    border-spacing: 9px;
+}
+
+.orange {
+    background-color: #e49300;
+    color: #2e0b82;
+}
+
+td.erase {
+    font-family: 'Material Icons';
+}
+
+td {
+    box-shadow: #00000087 0px 0px 2px 2px;
+    background-color: #202327;
+    height: 45px;
+    width: 49px;
+    border-radius: 8px;
+    text-align: center;
+    color: #d9d9d9;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+td:active {
+    filter: brightness(0.6)
+}
